@@ -12,7 +12,8 @@ Therefore, it does not require any environment.
 
 ## URL of sample program
 
-<https://react-query-ssr-pokemon.vercel.app/>
+<https://next-react-query-ssr.vercel.app/>  
+<https://github.com/SoraKumo001/next-react-query-ssr>
 
 ## Notes.
 

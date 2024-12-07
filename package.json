@@ -1,6 +1,6 @@
 {
   "name": "react-query-ssr",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "exports": {
@@ -38,5 +38,6 @@
     "ssr",
     "fetch"
   ],
-  "author": "SoraKumo <info@croud.jp>"
+  "author": "SoraKumo <info@croud.jp>",
+  "repository": "https://github.com/ReactLibraries/react-query-ssr"
 }
