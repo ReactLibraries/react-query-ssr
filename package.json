@@ -1,0 +1,42 @@
+{
+  "name": "react-query-ssr",
+  "version": "0.0.1",
+  "main": "./dist/cjs/index.js",
+  "types": "./dist/cjs/index.d.ts",
+  "exports": {
+    "require": "./dist/cjs/index.js",
+    "import": "./dist/esm/index.js"
+  },
+  "description": "Library for easy SSR of data obtained from asynchronous in Next.js.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && tsc --project ./tsconfig.esm.json && cpy esm dist",
+    "lint": "eslint --fix ./src",
+    "lint:fix": "eslint --fix ./src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@tanstack/react-query": "^5.62.3",
+    "@types/react": "18.3.12",
+    "cpy-cli": "^5.0.0",
+    "eslint": "9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.31.0",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.11.0"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "react-query",
+    "ssr",
+    "fetch"
+  ],
+  "author": "SoraKumo <info@croud.jp>"
+}
