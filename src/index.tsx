@@ -3,7 +3,6 @@ import {
   isServer,
   dehydrate,
   hydrate,
-  QueryClientProvider,
   useQueryClient,
 } from "@tanstack/react-query";
 import React, { ReactNode } from "react";
@@ -50,10 +49,10 @@ export const SSRProvider: FC<{ children: ReactNode }> = ({ children }) => {
     property.finished = true;
   }
   return (
-    <QueryClientProvider client={queryClient}>
+    <>
       {children}
       <DataTransfer property={property} />
-    </QueryClientProvider>
+    </>
   );
 };
 
