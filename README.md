@@ -1,5 +1,11 @@
 # react-query-ssr
 
+[![](https://img.shields.io/npm/l/react-query-ssr)](https://www.npmjs.com/package/react-query-ssr)
+[![](https://img.shields.io/npm/v/react-query-ssr)](https://www.npmjs.com/package/react-query-ssr)
+[![](https://img.shields.io/npm/dw/react-query-ssr)](https://www.npmjs.com/package/react-query-ssr)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ReactLibraries/react-query-ssr)
+
+
 ## overview
 
 SSR functionality with react-query.
