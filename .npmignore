@@ -12,3 +12,4 @@ jest.config.js
 /test
 /coverage
 .prettierrc
+eslint.config.mjs
