@@ -1,6 +1,6 @@
 {
   "name": "react-query-ssr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "exports": {
@@ -30,7 +30,7 @@
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.4"
+    "typescript-eslint": "^8.60.0"
   },
   "keywords": [
     "nextjs",
